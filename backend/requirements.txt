@@ -2,6 +2,7 @@ streamlit
 requests
 pydantic==2.8.2
 fastapi
+uvicorn
 pymongo[srv] 
 langchain
 langchain-google-genai
