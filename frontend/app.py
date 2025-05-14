@@ -3,7 +3,9 @@ import requests
 import json # For pretty printing JSON if needed
 
 # Configuration
-BACKEND_URL = "http://localhost:8000/api/nl-to-sql" # Make sure this matches your FastAPI backend URL
+BACKEND_URL = "https://nl2sql-3p8r.onrender.com/api/nl-to-sql" # Make sure this matches your FastAPI backend URL
+
+
 
 st.set_page_config(layout="wide", page_title="Natural Language to Redshift SQL")
 
