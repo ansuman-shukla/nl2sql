@@ -1,0 +1,8 @@
+streamlit
+requests
+pydantic==2.8.2
+fastapi
+pymongo[srv] 
+langchain
+langchain-google-genai # For data validation, though primarily used by backend
+python-dotenv
